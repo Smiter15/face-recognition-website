@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KAMAAAAN</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body ng-app="myApp">
+	<section ng-controller="homeCtrl">
+		<div class="container">
+			<ul>
+				<li ng-repeat="face in faces">Hi [[face]]!</li>
+			</ul>
+		</div>
+	</section>
+
+
+</body>
+
+<script type="text/javascript" src="/static/js/angular.js"></script>
+<script type="text/javascript" src="/static/js/app-angular.js"></script>
+
+</html>
